@@ -9,7 +9,7 @@
     "outDir": "dist",
     "sourceMap": true,
     "sourceRoot": "src",
-    "noEmitHelpers": true,
+    "noEmitHelpers": false,
     "target": "es6",
     "typeRoots": [
       "node_modules/@types"
