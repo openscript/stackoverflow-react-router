@@ -15,9 +15,9 @@ const protectedComponent = () => (
     <p>protected</p>
 );
 
-const ProtectedRoute = ({component: Component, isAuthenticated, ...attributes}) => {
+const ProtectedRoute = ({component: Component, isAuthenticated, ...rest}) => {
     return <Route
-        {...attributes}
+        {...rest}
         render={props => isAuthenticated
             ? <Component {...props} />
             : <Redirect to={{pathname: '/login', state: {from: props.location}}} />}
