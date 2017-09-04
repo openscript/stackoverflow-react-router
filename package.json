@@ -1,0 +1,25 @@
+{
+  "name": "stackoverflow-react-router",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "repository": "https://github.com/openscript/stackoverflow-react-router",
+  "author": "Robin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base dist/ --hot --progress"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^4.0.7",
+    "@types/webpack": "^3.0.10",
+    "awesome-typescript-loader": "^3.2.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "webpack/webpack-dev-server"
+  }
+}
